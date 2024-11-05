@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+}
+
+.npc {
+  margin-bottom: 20px;
+}
+
+.npcImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.dialogBox {
+  background-color: #555;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+  cursor: pointer;
+}
